@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "suraj",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "chacha": "echo \"this is good\"",
+    "chachi": "echo \"\u001b[35m🚀 Running tests...\u001b[39m\" && echo \"\u001b[32m✓ All systems go!\u001b[39m\" && node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "accessibility": "^3.0.9",
+    "chalk": "^5.4.1",
+    "express": "^4.21.2",
+    "one-liner-joke": "^1.2.2"
+  }
+}

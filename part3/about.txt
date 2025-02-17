@@ -1,0 +1,13 @@
+1-NPM understanding 
+
+2-Installing and uninstalling snything basics & advanced
+install -> npm i packageKaNaam
+uninstall -> npm uninstall packageKaNamm
+
+Understanding node_modules
+
+dependencies
+
+devdependencies
+
+scripts - understanding default scripts PATH and custom scripts
