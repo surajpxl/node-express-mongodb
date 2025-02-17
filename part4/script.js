@@ -19,10 +19,12 @@ app.use(function(req, res, next){
         console.log("middleware chala");
         next();
 })
+
 app.use(function(req, res, next){
         console.log("middleware chala ek aur baar");
         next();
 })
+
 
 app.get("/", function(req, res){
     res.send('I am manish')
@@ -33,4 +35,5 @@ app.get("/about", function(req, res){
 app.get("/profile", function(req, res){
     res.send('this is profile!')
 });
-app.listen(3000)
+app.listen(5000)
+console.log("suarjjjjj");
