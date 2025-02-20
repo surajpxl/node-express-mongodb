@@ -41,18 +41,22 @@ const app = express();
 // -------------Error handling---------------------
 
 app.get("/", function(req, res){
-    res.send("who are you?")
+    res.send("This is home page")
 })
 
+app.get("/about", function(req, res){
+    res.send("about page")
+});
+
 app.get("/profile", function(req, res, next){
-    return next(new Error("somethinf went wrong"))
+    return next(new Error("something went wrong(console message)"));
 })
 
 
 app.use((err, req, res, next) => {
     console.error(err.stack)
-    res.status(500).send('Something broke!')
-})
+    res.status(500).send('Something broke! (frontend message)')
+  })
 
 app.listen(3000)
 
