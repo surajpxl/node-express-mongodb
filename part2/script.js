@@ -61,12 +61,12 @@ const fs = require('fs')
         //   creating server 
 
 
-// const http = require('http');
+const http = require('http');
 
-// const server = http.createServer(function(req, res){
-//     res.end('Hello World!')
-// })
-// server.listen(3000);
+const server = http.createServer(function(req, res){
+    res.end('Hello World!')
+})
+server.listen(3000);
 
 
 // const http = require('http');
@@ -84,18 +84,18 @@ const fs = require('fs')
 
 
  
-const http = require('http');
-const server = http.createServer(function(req, res){
-    res.end('i am suraj')
-})
- server.listen(5000, ()=>{
-        console.log('Server running on port 3000');
+// const http = require('http');
+// const server = http.createServer(function(req, res){
+//     res.end('i am suraj')
+// })
+//  server.listen(5000, ()=>{
+//         console.log('Server running on port 3000');
         
- })
+//  })
 
- setTimeout(()=>{
-        server.close(()=>{
-                console.log('server closed');
+//  setTimeout(()=>{
+//         server.close(()=>{
+//                 console.log('server closed');
                 
-        })
- }, (10000)) // server closed in 10 second automatically
+//         })
+//  }, (10000)) // server closed in 10 second automatically
