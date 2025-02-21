@@ -5,7 +5,9 @@ express install
 
 setting up parsers for form
 
-setting up ejs for ejs pages
+setting up ejs for ejs pages   //ejs(frontend html jaisa dikhta hai)
+install ejs from npm
+setup ejs as a view engine
 
 setting up public static files
 
