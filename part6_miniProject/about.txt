@@ -13,4 +13,10 @@ setting up public static files
 
 Dynamic routing
    -> dynamic routing
+       -sabse pahle browser par jao
+       -url likhiye apna jo aapko chahiye and enter dabaaiye
+       -ab us url route ko create kariye
+       -respond bhejiye kuch bhi
+       -ab usi url ko agar dynamic banaana hai to realise karo konsa part dynamic hai aur us part ke aage route mein : laga do 
+
    -> how to get data coming from frontend at backend route
