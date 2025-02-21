@@ -1,0 +1,6 @@
+form handling and working with the forms
+handle backend process of form and making sure the data coming any frontend library, framework, templating engines
+
+session cookie -> hum log kuch nhi data frontend par browser par rakh skte hai and jab bhi aap kuch bhi request backend par karoge wo frontend par saved data automatically backend par chala jaayega
+
+blob -> tumne to data bheja tha plain text par server ko mila blob which is not directly readable, ab is chiz ko handle karna padega ki hum us blob ko waapas se readable kar sake
