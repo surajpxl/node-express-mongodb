@@ -23,7 +23,10 @@
      
                     <div class="task m-w-72 px-3 py-4 rounded-md bg-zinc-600">
                         <h1 class="text-white text-3xl tracking-tighter"><%= val %></h1>
-                        <a class="text-blue-500 mt-3" href="/file/<%= val %>">Read More.</a>
+                        <div class="flex w-full  justify-between item-center mt-3">
+                            <a class="text-blue-500 " href="/file/<%= val %>">Read More.</a>
+                            <a class="text-green-600 ml-5" href="/edit/<%= val %>">edit filename</a>
+                        </div>
                     </div>
 
                  <% }) %>
