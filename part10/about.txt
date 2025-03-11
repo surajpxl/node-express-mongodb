@@ -1,3 +1,4 @@
 Data Storage 
 Types Of DBS - SQL | NoSQL 
-
+what and why
+terminologies - collections, documents, schemas, keys, models
